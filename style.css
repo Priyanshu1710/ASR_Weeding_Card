@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+#main{
+    display: flex;
+    margin: 71px 167px;
+    box-shadow: 0px 0px 15px;
+    max-width: 1015px;
+}
+.container{
+    flex: 1;
+border: 2px solid black;
+max-width: 490px;
+height: 500px;
+}
+.con-2{
+
+    padding: 0px 0px 0px 30px;}
+.con-1 img{
+    width: 487px;
+    height: 500px;
+}
+/* container 2 */
+.container-inside{
+text-align: center;
+text-transform: uppercase;
+padding: 15px;
+}
+.container-inside-heading{
+    /* color: crimson; */
+    color: #204423;
+
+}
+.container-inside-paira{
+    opacity: .4;
+}
+hr{
+    width: 89px;
+margin: auto;
+opacity: 0.1;
+}
+.btn{
+    background-color: #181f19;
+color: white;
+border: 2px solid #204423;
+border-radius: 14px;
+padding: 4px 20px;
+margin: 5px 0px 20px 0px;
+text-transform: uppercase;
+}
+.btn-2{
+    width: 440px;
+border-radius: 2px;
+padding: 10px 0px 10px 0px;
+font-size: 15px;
+margin-top: 20px;
+}
+.container-inside-h4{
+    text-transform: uppercase;
+padding: 5px 0px 30px 0px;
+font-size: 27px;
+font-weight: 200;
+}
+
+.container-inside-paira1{
+    padding: 0px 0px 30px 0px;
+}
+
+
+.container-inside-paira2{
+position: relative;
+top: -48px;
+left: 365px;
+width: 96px;
+}
+
+#footer-section{
+    display: grid;
+    grid-template-rows: repeat(2,54px);
+grid-template-columns: repeat(2,300px);
+/* padding-top: ; */
+}
